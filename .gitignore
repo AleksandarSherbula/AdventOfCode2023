@@ -1,7 +1,7 @@
 #Directories
 .vs/
 build/
-files/Test.txt
+AdventOfTheCode/files/Test.txt
 
 # files
 **.sln

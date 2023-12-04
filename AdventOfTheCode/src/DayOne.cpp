@@ -71,7 +71,6 @@ void DayOneChallenge(std::string filepath)
 
 				str_indices_found[i] = found;
 			}
-
 			
 			for (int i = 0; i < str_indices_found.size(); i++)
 			{				
@@ -123,4 +122,6 @@ void DayOneChallenge(std::string filepath)
 	int sumOfCalib = 0;
 	for (int n : calibNums)
 		sumOfCalib += n;
+
+	std::cout << sumOfCalib << std::endl;
 }
