@@ -1,7 +1,10 @@
-#include <iostream>
+#include <string>
+
+void DayOneChallenge(std::string filepath);
 
 int main()
-{
-	std::cout << "Hello World" << std::endl;
+{	
+	DayOneChallenge("files/DayOnePuzzleInput.txt");
+
 	return 0;
 }

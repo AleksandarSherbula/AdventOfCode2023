@@ -1,6 +1,7 @@
 #Directories
 .vs/
 build/
+files/Test.txt
 
 # files
 **.sln
