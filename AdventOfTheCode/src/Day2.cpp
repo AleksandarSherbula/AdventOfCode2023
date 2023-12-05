@@ -3,8 +3,11 @@
 #include <fstream>
 #include <iostream>
 
-void DayTwoChallenge(std::string filepath)
+#include "Timer.h"
+
+void DayTwoChallenge(const std::string& filepath)
 {
+	Timer timer;
 	std::ifstream stream(filepath);
 	std::string line;
 

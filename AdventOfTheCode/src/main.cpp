@@ -1,12 +1,12 @@
 #include <string>
 
-void DayOneChallenge(std::string filepath);
-void DayTwoChallenge(std::string filepath);
+void DayOneChallenge(const std::string& filepath);
+void DayTwoChallenge(const std::string& filepath);
+void DayThreeChallenge(const std::string& filepath);
 
 int main()
-{	
-	DayOneChallenge("files/DayOnePuzzleInput.txt");
-	DayTwoChallenge("files/DayTwoPuzzleInput.txt");
+{
+	DayThreeChallenge("files/Day3_PuzzleInput.txt");
 
 	return 0;
 }

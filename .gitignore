@@ -1,9 +1,9 @@
 #Directories
 .vs/
 build/
-AdventOfTheCode/files/Test.txt
 
 # files
+Test.txt
 **.sln
 **.vcxproj
 **.vcxproj.filters

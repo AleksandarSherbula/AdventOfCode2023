@@ -7,7 +7,7 @@
 
 #include "Timer.h"
 
-void DayOneChallenge(std::string filepath)
+void DayOneChallenge(const std::string& filepath)
 {
 	Timer timer;
 
