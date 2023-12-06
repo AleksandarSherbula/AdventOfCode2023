@@ -24,8 +24,6 @@ void DayThreeChallenge(const std::string& filepath)
 	int i = 0;
 	int sumOfPartsNumber = 0;
 	int sumOfGearRatio = 0;
-	int storedNumber = -1;
-	int storedGearIndex = -1;
 
 	struct StoredData
 	{
