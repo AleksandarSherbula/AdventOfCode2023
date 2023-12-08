@@ -7,7 +7,6 @@
 
 #include "Timer.h"
 
-
 // Easily the slowest code i have ever written. This one is definitely word revisiting.
 
 void DayFourChallenge(const std::string& filepath)

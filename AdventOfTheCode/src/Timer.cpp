@@ -16,6 +16,11 @@ Timer::~Timer()
 	auto duration = end - start;
 	double ms = duration * 0.001;
 	std::cout << duration << "us (" << ms <<"ms)\n";
+	if (ms >= 1000)
+	{
+		int seconds = ms * 0.001;
+		std::cout << seconds << " seconds \n";
+	}
 }
 
 
