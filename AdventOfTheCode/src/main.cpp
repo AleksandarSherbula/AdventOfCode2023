@@ -10,11 +10,12 @@ void DayFourChallenge(const std::string& filepath);
 void DayFiveChallenge(const std::string& filepath);
 void DaySixPartOneChallenge(const std::string& filepath);
 void DaySixPartTwoChallenge(const std::string& filepath);
+void DaySevenPartOneChallenge(const std::string& filepath);
+void DaySevenPartTwoChallenge(const std::string& filepath);
 
 int main()
 {
-	DaySixPartOneChallenge("files/Day6_PuzzleInput.txt");
-	DaySixPartTwoChallenge("files/Day6_PuzzleInput.txt");
+	DaySevenPartOneChallenge("files/Day7_PuzzleInput.txt");
 
 	return 0;
 }
